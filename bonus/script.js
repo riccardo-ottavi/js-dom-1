@@ -14,19 +14,14 @@ mainBtn.addEventListener("click", toggleLight);
 function toggleLight() {
     if (isLightOn === false) {
         lampImg.src = "img/yellow_lamp.png";
-        mainBox.style.gap = "38px";
+        mainBox.style.gap = "64px";
         mainBox.style.marginLeft = "39vw";
         mainBtn.innerText = "Spegni";
-        console.log("hai acceso la luce");
-        
-
     }else if (isLightOn=== true) {
         lampImg.src = "img/white_lamp.png";
-        mainBox.style.gap = "38px";
-        mainBox.style.marginLeft = "39vw";
-        mainBtn.innerText = "Accendi";
-        console.log("hai acceso la luce");
-        
+        mainBox.style.marginLeft = "41vw";
+        mainBox.style.gap = "28px";
+        mainBtn.innerText = "Accendi";     
     };
     if (isLightOn === true) {
         isLightOn = false; 
