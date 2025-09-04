@@ -9,4 +9,5 @@ mainBtn.addEventListener("click", function(){
     lampImg.src = "img/yellow_lamp.png";
     mainBox.style.gap = "38px";
     mainBox.style.marginLeft = "39vw";
+    mainBtn.innerText = "Spegni";
 });
