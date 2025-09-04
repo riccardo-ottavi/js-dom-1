@@ -10,9 +10,6 @@
     margin: 0 auto;
     margin-top: 200px;
     margin-left: 41vw;
+    max-width: 800px;
 }
 
-#myImg{
-    margin-right: 0px;
-    padding-right: 0px;
-}
