@@ -7,12 +7,7 @@
 #box {
     display: flex;
     align-items: center;
+    width: 30%;
     margin: 0 auto;
     margin-top: 200px;
-    margin-left: 41vw;
-}
-
-#myImg{
-    margin-right: 0px;
-    padding-right: 0px;
 }
